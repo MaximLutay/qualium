@@ -1,0 +1,12 @@
+#viewarea{
+position: absolute;
+width: 400px;
+height:400px;
+background-color: lightblue;
+overflow: hidden;
+
+z-index: 2;}
+#overlapper{
+  overflow: hidden;
+  z-index: 100;
+}
