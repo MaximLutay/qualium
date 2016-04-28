@@ -1,5 +1,6 @@
 body{
   background:gray;
+  transition:2s;
 }
 
 
@@ -31,7 +32,7 @@ a{
   background: gray;
   font-size:30px;
   color:white;
-  transition: top 1s, 0.5s background 1s, 0.6s color 1s;
+  transition: top 1s, 0.1 background 1s, 0.1s color 1s;
   text-decoration:none;
   text-align:center;
 }
@@ -47,6 +48,9 @@ a{
   color:gray;
   
   top:100px;
+}
+#anchor:hover body {
+  background:white;
 }
 
 
