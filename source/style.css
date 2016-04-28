@@ -9,7 +9,7 @@ body{
 position: absolute;
 width: 400px;
 height:400px;
-background-color: lightblue;
+/*background-color: lightblue;*/
 overflow: hidden;
 z-index: 2;}
 
