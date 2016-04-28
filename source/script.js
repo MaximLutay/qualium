@@ -234,7 +234,11 @@ viewarea.addEventListener( 'click',function(){animation(n_of_rows,each_row_heigh
 
 
 
-window.onload=function(){center_element_position('viewarea');all();backstl();};
+window.onload=function(){
+  center_element_position('viewarea');
+  all();
+  backstl();
+};
 
 window.onresize=function(){center_element_position('viewarea');};
 
