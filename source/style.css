@@ -23,11 +23,11 @@ z-index: 2;}
 a{
   position:absolute;
   top:50px;
-  left:40%;
   display: block;
   box-sizing:border-box;
   width: 200px ;
-  height:50px;
+  height:60px;
+  padding:5px;
   border:solid white 2px;
   border-radius:10px;
   background: gray;
