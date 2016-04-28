@@ -37,7 +37,7 @@ a{
 }
 
 
-a:hover{
+#anchor:hover a{
   background:white;
   color:gray;
   
