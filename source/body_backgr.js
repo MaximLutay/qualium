@@ -1,4 +1,4 @@
-var anchor = document.getElementById('#anchor');
+var anchor = document.getElementById('anchor');
 
 var body = document.getElementsByTagName('body')[0];
 
