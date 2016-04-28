@@ -1,7 +1,7 @@
 var anchor = document.getElementById('anchor');
 
-var body = function(){return document.getElementsByTagName('body')[0];};
-var bodywidth = body.style.width;
+var body = document.getElementsByTagName('body')[0];
+var bodywidth = function(){ return body.style.width;};
 
 
 
