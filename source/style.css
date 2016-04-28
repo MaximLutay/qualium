@@ -32,6 +32,8 @@ a{
   font-size:30px;
   color:white;
   transition: top 1s, 2s background 2s, 2s color 2s;
+  text-decoration:none;
+  text-align:center;
 }
 
 
