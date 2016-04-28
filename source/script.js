@@ -95,6 +95,32 @@ function center_element_position(element_id){
 
 
 
+
+function center_element_X_position(element_id){
+      var window_width = window.innerWidth;
+      
+
+
+      var element = document.getElementById(element_id);
+
+
+      var element_width = element.offsetWidth;
+      
+
+
+      
+      var element_left = window_width/2 - element_width/2;
+
+      
+      element.style.left = element_left + "px";
+
+      console.log('left: '+element_left);
+
+};
+
+
+
+
 function set_width_for_rows_rand_color(which_row_is_largest,n_of_rows,each_row_height){
 
   var overlap = document.getElementById('overlaper');
@@ -235,9 +261,9 @@ viewarea.addEventListener( 'click',function(){animation(n_of_rows,each_row_heigh
 
 
 window.onload=function(){
-  center_element_position('viewarea');center_element_position('button');  all();  };
+  center_element_position('viewarea');center_element_X_position('button');  all();  };
 
-window.onresize=function(){center_element_position('viewarea');center_element_position('button');};
+window.onresize=function(){center_element_position('viewarea');center_element_X_position('button');};
 
 
 
