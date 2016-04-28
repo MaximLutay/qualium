@@ -37,6 +37,11 @@ a{
 }
 
 
+#anchor{
+  width:100%;
+  height:200px;
+}
+
 #anchor:hover a{
   background:white;
   color:gray;
