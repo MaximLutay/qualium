@@ -33,7 +33,7 @@ a{
   background: gray;
   font-size:30px;
   color:white;
-  transition: top 1s, background 1s,  color 1s, border-radius 1s;
+  transition: top 1s, background 1s,  color 1s, border-radius 1s,0.5s transform 1s;
   text-decoration:none;
   text-align:center;
 }
@@ -49,7 +49,7 @@ a{
   color:gray;
   border:solid gray 1px;
   border-radius:20px;
-  
+  transform:scale(1.25);
   top:100px;
 }
 
