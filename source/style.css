@@ -33,7 +33,7 @@ a{
   background: gray;
   font-size:30px;
   color:white;
-  transition: top 1s, background 1s,  color 1s;
+  transition: top 1s, background 1s,  color 1s, border-radius 1s;
   text-decoration:none;
   text-align:center;
 }
